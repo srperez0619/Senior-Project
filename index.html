@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #3d5a80;
+  margin: 0px;
+}
+
+
+/* Style the header */
+header {
+  background-color: #ffffff
+  text-align: center;
+  font-size: 35px;
+  color: black
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #283950;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color:#ffc24a;
+  color: black;
+}
+
+/* Create two columns/boxes that floats next to each other 
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 100%;
+  background-color: #3d5a80;
+  color: white;
+}
+
+.split {
+  height: 60%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 30;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: #3d5a80;
+}
+
+.right {
+  right: 0;
+  padding
+  background-color: #3d5a80;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 300px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #283950;
+  padding: 10px;
+  text-align: left;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.button {
+  border: none;
+  color: #a7d2dd;
+  font-family: cursive;
+  background-color: #283950; 
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 3px solid #283950;
+  text-align: left;
+  padding: 10px;
+  width: 25%
+}
+
+th { 
+  color: #283950;
+}
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">	
+  <a href="./contact.html">About Us!</a>
+  <a href="./cday.html">CDay</a>
+  <a href="./testing.html">Testing Results</a>
+  <a href="./dev.html">Development Process</a>
+  <a href="./gannt.html">Gantt Chart</a>
+  <a href="./planning.html">Planning Process</a>
+  <a class="active" href="./index.html">Home</a>
+</div>
+
+<section>  
+  <article>
+    <div class="split left">
+      <div class= "centered">
+      <p style="padding: 30px">
+      <h>  <div style="text-align: center"><img src= "Full Logo White.png" alt="Ksu logo" width="400" height="200"> </div></h>
+      </p> 
+      </div>
+    </div>
+  </article>
+
+  <article> 
+    <div class="split right"> 
+ <p style="text-align: center">
+    <p style="font-size:18px"> 
+      At Kennesaw State University, there are many interest points available for visitors or students to view, interact with, or take pictures around. Most viewers are unaware of the origin story behind each piece or where each piece is located relative to their current location. With our app, we hope to give more publicity to these interest points that define our campus and give a story to our surroundings. 
+      </p>
+      <p style="font-size:18px">  Our app will include functionalities for app members to suggest a new interest point or an interest point we may have not considered. This allows the app to have intractability aside from utilizing the map itself. </p>
+      </p>      
+        <p style="font-size:18px"> We were excited to take this project on because we want to have the ability to make an application with a real-world purpose and to allow ourselves to be more involved with our campus.
+      </p>
+    </p>
+  </article>
+</section>
+
+<footer>
+  <p style="font-family:dejaVu sans mono"> <a href= "https://github.com/srperez0619/Senior-Project"> <button class="button">github</button> </p>
+</footer>
+
+</body>
+</html>
+
+
