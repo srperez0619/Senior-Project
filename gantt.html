@@ -42,7 +42,7 @@
 		}
 	
 	}
-	#List {
+	#List_ {
 		position: absolute;
 		width: 181px;
 		height: 3548px;
@@ -50,7 +50,7 @@
 		top: 140px;
 		overflow: visible;
 	}
-	#Rectangle_2 {
+	#Rectangle_2_ {
 		fill: rgba(35,31,32,1);
 		stroke: rgba(112,112,112,1);
 		stroke-width: 1px;
@@ -59,7 +59,7 @@
 		stroke-miterlimit: 4;
 		shape-rendering: auto;
 	}
-	.Rectangle_2 {
+	.Rectangle_2_ {
 		position: absolute;
 		overflow: visible;
 		width: 181px;
@@ -67,7 +67,7 @@
 		left: 0px;
 		top: 0px;
 	}
-	#Home {
+	#Home_ {
 		left: 41px;
 		top: 181px;
 		position: absolute;
@@ -85,7 +85,7 @@
 		font-size: 35px;
 		color: rgba(143,143,143,1);
 	}
-	#Planning_Process {
+	#Planning_Process_ {
 		left: 16px;
 		top: 276px;
 		position: absolute;
@@ -103,7 +103,7 @@
 		font-size: 35px;
 		color: rgba(143,143,143,1);
 	}
-	#Gantt_Chart {
+	#Gantt_Chart_ba {
 		left: 43px;
 		top: 406px;
 		position: absolute;
@@ -117,7 +117,7 @@
 		font-size: 35px;
 		color: rgba(255,255,255,1);
 	}
-	#Development_Process {
+	#Development_Process_bb {
 		left: 10px;
 		top: 536px;
 		position: absolute;
@@ -137,7 +137,7 @@
 		font-size: 25px;
 		color: rgba(143,143,143,1);
 	}
-	#Testing_Process {
+	#Testing_Process_bc {
 		left: 23px;
 		top: 653px;
 		position: absolute;
@@ -155,27 +155,9 @@
 		font-size: 35px;
 		color: rgba(143,143,143,1);
 	}
-	#C-Day {
-		left: 38px;
-		top: 783px;
-		position: absolute;
-		overflow: visible;
-		width: 107px;
-		white-space: nowrap;
-		--web-animation: fadein 1s ease-out;
-		--web-action-type: page;
-		--web-action-target: cday.html;
-		cursor: pointer;
-		text-align: center;
-		font-family: Yu Gothic;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 35px;
-		color: rgba(143,143,143,1);
-	}
-	#About_Us {
+	#About_Us_bd {
 		left: 13px;
-		top: 878px;
+		top: 783px;
 		position: absolute;
 		overflow: visible;
 		width: 157px;
@@ -323,7 +305,7 @@
 		top: 3129px;
 		overflow: visible;
 	}
-	#Header {
+	#Header_bq {
 		position: absolute;
 		width: 1920px;
 		height: 140px;
@@ -331,7 +313,7 @@
 		top: 0px;
 		overflow: visible;
 	}
-	#Rectangle_1 {
+	#Rectangle_1_br {
 		fill: rgba(255,196,37,1);
 		stroke: rgba(35,31,32,1);
 		stroke-width: 1px;
@@ -340,7 +322,7 @@
 		stroke-miterlimit: 4;
 		shape-rendering: auto;
 	}
-	.Rectangle_1 {
+	.Rectangle_1_br {
 		filter: drop-shadow(0px 10px 6px rgba(0, 0, 0, 0.161));
 		position: absolute;
 		overflow: visible;
@@ -349,7 +331,7 @@
 		left: 0px;
 		top: 0px;
 	}
-	#Explore_OA {
+	#Explore_OA_bs {
 		position: absolute;
 		width: 325px;
 		height: 325px;
@@ -368,7 +350,7 @@
 		left: 912px;
 		top: 19px;
 	}
-	#Owl_Walk {
+	#Owl_Walk_bu {
 		left: 912px;
 		top: 37px;
 		position: absolute;
@@ -3296,31 +3278,28 @@ window.application = new Application();
 </head>
 <body>
 <div id="gantt">
-	<div id="List" class="List">
-		<svg class="Rectangle_2">
-			<rect id="Rectangle_2" rx="0" ry="0" x="0" y="0" width="181" height="3548">
+	<div id="List_" class="List">
+		<svg class="Rectangle_2_">
+			<rect id="Rectangle_2_" rx="0" ry="0" x="0" y="0" width="181" height="3548">
 			</rect>
 		</svg>
 	</div>
-	<div onclick="application.goToTargetView(event)" id="Home">
+	<div onclick="application.goToTargetView(event)" id="Home_">
 		<span>Home</span>
 	</div>
-	<div onclick="application.goToTargetView(event)" id="Planning_Process">
+	<div onclick="application.goToTargetView(event)" id="Planning_Process_">
 		<span>Planning<br/>Process</span>
 	</div>
-	<div id="Gantt_Chart">
+	<div id="Gantt_Chart_ba">
 		<span>Gantt<br/>Chart</span>
 	</div>
-	<div onclick="application.goToTargetView(event)" id="Development_Process">
+	<div onclick="application.goToTargetView(event)" id="Development_Process_bb">
 		<span>Development<br/>Process</span>
 	</div>
-	<div onclick="application.goToTargetView(event)" id="Testing_Process">
+	<div onclick="application.goToTargetView(event)" id="Testing_Process_bc">
 		<span>Testing<br/>Process</span>
 	</div>
-	<div onclick="application.goToTargetView(event)" id="C-Day">
-		<span>C-Day</span>
-	</div>
-	<div onclick="application.goToTargetView(event)" id="About_Us">
+	<div onclick="application.goToTargetView(event)" id="About_Us_bd">
 		<span>About Us</span>
 	</div>
 	<img id="Image_1" src="Image_1.png" srcset="Image_1.png 1x, Image_1@2x.png 2x">
@@ -3353,19 +3332,19 @@ window.application = new Application();
 	</div>
 	<img id="Image_6" src="Image_6.png" srcset="Image_6.png 1x, Image_6@2x.png 2x">
 		
-	<div id="Header" class="Header">
-		<svg class="Rectangle_1">
-			<rect id="Rectangle_1" rx="0" ry="0" x="0" y="0" width="1920" height="140">
+	<div id="Header_bq" class="Header">
+		<svg class="Rectangle_1_br">
+			<rect id="Rectangle_1_br" rx="0" ry="0" x="0" y="0" width="1920" height="140">
 			</rect>
 		</svg>
 	</div>
-	<img id="Explore_OA" src="Explore_OA.png" srcset="Explore_OA.png 1x, Explore_OA@2x.png 2x">
+	<img id="Explore_OA_bs" src="Explore_OA_bs.png" srcset="Explore_OA_bs.png 1x, Explore_OA_bs@2x.png 2x">
 		
 	<svg class="Rectangle_12">
 		<rect id="Rectangle_12" rx="0" ry="0" x="0" y="0" width="258" height="100">
 		</rect>
 	</svg>
-	<div id="Owl_Walk">
+	<div id="Owl_Walk_bu">
 		<span>Owl Walk</span>
 	</div>
 </div>
